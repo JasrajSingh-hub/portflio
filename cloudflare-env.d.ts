@@ -4,3 +4,8 @@ declare namespace Cloudflare {
     BUCKET?: R2Bucket;
   }
 }
+
+declare module "*/hosting.json" {
+  const value: { d1?: string | null; r2?: string | null; project_id?: string };
+  export default value;
+}
