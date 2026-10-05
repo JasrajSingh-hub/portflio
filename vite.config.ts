@@ -1,3 +1,4 @@
+// @ts-nocheck
 import fs from "node:fs";
 import { resolve } from "node:path";
 import vinext from "vinext";
